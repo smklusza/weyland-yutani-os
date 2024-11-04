@@ -13,7 +13,12 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install screen
+rpm-ostree install numix-icon-theme-circle
+rpm-ostree install wofi
+rpm-ostree install python3-scipy
+rpm-ostree install rstudio-desktop
+rpm-ostree install rstudio-common
+rpm-ostree install R
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
