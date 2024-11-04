@@ -16,8 +16,6 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install numix-icon-theme-circle
 rpm-ostree install wofi
 rpm-ostree install python3-scipy
-rpm-ostree install rstudio
-rpm-ostree install rstudio-common
 rpm-ostree install R
 
 # this would install a package from rpmfusion
