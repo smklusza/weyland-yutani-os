@@ -14,9 +14,10 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install numix-icon-theme-circle
-rpm-ostree install wofi
+rpm-ostree install rofi-wayland
 rpm-ostree install python3-scipy
 rpm-ostree install R
+rpm-ostree install julia
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
